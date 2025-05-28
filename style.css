@@ -34,6 +34,13 @@ body {
     height: calc(100vh - 64px);
     background: linear-gradient(120deg, #3f3f40 0%, #545254 100%);
     align-content: flex-start;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .icon {
     display: flex;
@@ -97,6 +104,13 @@ body {
     box-shadow: 0 -2px 12px #17151980;
     padding: 0 16px 0 0;
     letter-spacing: 0.1px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .taskbar-left {
     display: flex;
@@ -150,6 +164,13 @@ body {
     letter-spacing: 1px;
     text-shadow: 1px 1px 0 #fff0fa;
     white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .taskbar-tab {
     display: flex;
@@ -227,6 +248,13 @@ body {
     max-width: 360px !important;
     min-height: 140px;
     background: none !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .folder-grid {
     display: grid;
@@ -320,6 +348,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 .window-controls button {
@@ -508,6 +547,13 @@ body {
     height: 38px;
     align-items: stretch;
     padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .terminal-tab {
     padding: 0 18px;
