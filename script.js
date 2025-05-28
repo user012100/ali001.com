@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', function () {
             { label: "dinoboy-no-angel.jpg", icon: "images/artwork/dinoboy-no-angel.jpg", type: "image", url: "images/artwork/dinoboy-no-angel.jpg" },
             { label: "computerwife-front.jpg", icon: "images/artwork/computerwife-front.jpg", type: "image", url: "images/artwork/computerwife-front.jpg" },
             { label: "computerwife-back.jpg", icon: "images/artwork/computerwife-back.jpg", type: "image", url: "images/artwork/computerwife-back.jpg" },
-            { label: "computerwife-canvas.mp4", icon: "images/artwork/computerwife-canvas.png", type: "video", url: "images/artwork/computerwife-canvas.mp4" }
+            { label: "computerwife-canvas.mp4", icon: "images/artwork/computerwife-canvas.png", type: "video", url: "images/artwork/computerwife-canvas.png" }
         ],
         merchandise: [
             { label: "computerwife-tee-black.png", icon: "images/merchandise/computerwife-tee-black.png", type: "image", url: "images/merchandise/computerwife-tee-black.png" },
