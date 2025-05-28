@@ -404,9 +404,14 @@ body {
     display: block;
     object-fit: contain;
     background: #111;
-    -webkit-user-drag: none;
-    user-select: none;
     pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .window.music-player-window,
 .window[data-app="music player"] {
@@ -422,6 +427,13 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .window-content.music-player-content {
     padding: 0 !important;
@@ -479,6 +491,13 @@ body {
     min-width: 350px;
     max-width: 650px;
     padding: 0 !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 .video-player-embed {
     position: absolute;
