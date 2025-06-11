@@ -44,15 +44,15 @@ window.addEventListener('DOMContentLoaded', function () {
             { label: "computerwife-hoodie.png", icon: "images/merchandise/computerwife-hoodie.png", type: "image", url: "images/merchandise/computerwife-hoodie.png" }
         ],
         typography: [
-        //    { label: "gsc-poster.png", icon: "images/typography/gsc-poster.png", type: "image", url: "images/typography/gsc-poster.png" },
-        //    { label: "learn-german-if-u-der.png", icon: "images/typography/learn-german-if-u-der.png", type: "image", url: "images/typography/learn-german-if-u-der.png" },
+            { label: "gsc-poster.png", icon: "images/typography/gsc-poster.png", type: "image", url: "images/typography/gsc-poster.png" },
+            { label: "learn-german-if-u-der.png", icon: "images/typography/learn-german-if-u-der.png", type: "image", url: "images/typography/learn-german-if-u-der.png" },
             { label: "computerwife-logo.png", icon: "images/typography/computerwife-logo.png", type: "image", url: "images/typography/computerwife-logo.png" },
             { label: "emin-logo.png", icon: "images/typography/emin-logo.png", type: "image", url: "images/typography/emin-logo.png" },
             { label: "les-baklavas-logo.png", icon: "images/typography/les-baklavas-logo.png", type: "image", url: "images/typography/les-baklavas-logo.png" }
         ],
         applications: [
             { label: "mixr-prototype", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/jBJBre50JPxlv8JYkE2JR4/Visual-Design?node-id=19-0&scaling=scale-down&t=tBTPwMtYaXR8InmC-1" },
-            { label: "mixr-wireframe", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/1ZfKZjqeLoNUfdMp2QtQJf/Wireframe?node-id=8-4&p=f&t=mg88t1PwY2TfkS57-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" }
+            { label: "mixr-wireframe", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/1ZfKZjqeLoNUfdMp2QtQJf/Wireframe?node-id=0-1&t=rPOjdLQKY7Se22Td-1" }
         ],
         photos: [
             { label: "001.jpg", icon: "images/photos/001.jpg", type: "image", url: "images/photos/001.jpg" },
@@ -90,7 +90,6 @@ window.addEventListener('DOMContentLoaded', function () {
         var timeStr = day + " " + month + " " + date + " " + hour12 + ":" + min + ":" + sec + " " + ampm;
         document.getElementById('datetime').textContent = timeStr;
     }
-    document.getElementById('datetime').textContent = timeStr;
     setInterval(updateTime, 1000);
     updateTime();
 
