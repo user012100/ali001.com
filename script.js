@@ -35,20 +35,7 @@ window.addEventListener('DOMContentLoaded', function () {
         ],
         artwork: [
             { label: "dinoboy-no-angel.jpg", icon: "images/artwork/dinoboy-no-angel.jpg", type: "image", url: "images/artwork/dinoboy-no-angel.jpg" },
-            { label: "computerwife-front.jpg", icon: "images/artwork/computerwife-front.jpg", type: "image", url: "images/artwork/computerwife-front.jpg" },
-            { label: "computerwife-back.jpg", icon: "images/artwork/computerwife-back.jpg", type: "image", url: "images/artwork/computerwife-back.jpg" },
             { label: "computerwife-canvas.mp4", icon: "images/artwork/computerwife-canvas.png", type: "video", url: "images/artwork/computerwife-canvas.mp4" }
-        ],
-        merchandise: [
-            { label: "computerwife-tee-black.png", icon: "images/merchandise/computerwife-tee-black.png", type: "image", url: "images/merchandise/computerwife-tee-black.png" },
-            { label: "computerwife-hoodie.png", icon: "images/merchandise/computerwife-hoodie.png", type: "image", url: "images/merchandise/computerwife-hoodie.png" }
-        ],
-        typography: [
-            { label: "gsc-poster.png", icon: "images/typography/gsc-poster.png", type: "image", url: "images/typography/gsc-poster.png" },
-            { label: "learn-german-if-u-der.png", icon: "images/typography/learn-german-if-u-der.png", type: "image", url: "images/typography/learn-german-if-u-der.png" },
-            { label: "computerwife-logo.png", icon: "images/typography/computerwife-logo.png", type: "image", url: "images/typography/computerwife-logo.png" },
-            { label: "emin-logo.png", icon: "images/typography/emin-logo.png", type: "image", url: "images/typography/emin-logo.png" },
-            { label: "les-baklavas-logo.png", icon: "images/typography/les-baklavas-logo.png", type: "image", url: "images/typography/les-baklavas-logo.png" }
         ],
         applications: [
             { label: "mixr-prototype", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/jBJBre50JPxlv8JYkE2JR4/Visual-Design?node-id=19-0&scaling=scale-down&t=tBTPwMtYaXR8InmC-1" },
