@@ -36,21 +36,10 @@ window.addEventListener('DOMContentLoaded', function () {
             { label: "dinoboy-no-angel.jpg", icon: "images/artwork/dinoboy-no-angel.jpg", type: "image", url: "images/artwork/dinoboy-no-angel.jpg" },
             { label: "computerwife-canvas.mp4", icon: "images/artwork/computerwife-canvas.png", type: "video", url: "images/artwork/computerwife-canvas.mp4" }
         ],
-        applications: [
+        wireframes: [
             { label: "mixr-prototype", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/jBJBre50JPxlv8JYkE2JR4/Visual-Design?node-id=19-0&scaling=scale-down&t=tBTPwMtYaXR8InmC-1" },
             { label: "mixr-wireframe", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/1ZfKZjqeLoNUfdMp2QtQJf/Wireframe?node-id=0-1&t=rPOjdLQKY7Se22Td-1" }
         ],
-        photos: [
-            { label: "001.jpg", icon: "images/photos/001.jpg", type: "image", url: "images/photos/001.jpg" },
-            { label: "002.jpg", icon: "images/photos/002.jpg", type: "image", url: "images/photos/002.jpg" },
-            { label: "003.jpg", icon: "images/photos/003.jpg", type: "image", url: "images/photos/003.jpg" },
-            { label: "004.jpg", icon: "images/photos/004.jpg", type: "image", url: "images/photos/004.jpg" },
-            { label: "005.jpg", icon: "images/photos/005.jpg", type: "image", url: "images/photos/005.jpg" },
-            { label: "006.jpg", icon: "images/photos/006.jpg", type: "image", url: "images/photos/006.jpg" }
-        ],
-        games: [
-            { label: "spaceship.pde", type: "p5", sketch: "spaceship", icon: "./images/games/spaceship/spaceship.png" }
-        ]
     };
 
     function updateTime() {
