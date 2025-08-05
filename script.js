@@ -31,7 +31,6 @@ window.addEventListener('DOMContentLoaded', function () {
         websites: [
             { label: "nlambrou.com", icon: "images/icons/nl.png", url: "https://nlambrou.com" },
             { label: "atbfreight.com", icon: "https://images.squarespace-cdn.com/content/v1/6462a67cce6de61c9cf13ade/38cd49bc-8e0f-40ce-9c05-c88483cd6524/favicon.ico?format=100w", url: "https://atbfreight.com" },
-            { label: "surveillance-in-the-bronx", icon: "https://img.icons8.com/color/48/000000/webcam.png", url: "https://user012100.github.io/DigitalMediaFinalProject/index.html" }
         ],
         artwork: [
             { label: "dinoboy-no-angel.jpg", icon: "images/artwork/dinoboy-no-angel.jpg", type: "image", url: "images/artwork/dinoboy-no-angel.jpg" },
