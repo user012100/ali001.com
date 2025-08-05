@@ -351,19 +351,24 @@ window.addEventListener('DOMContentLoaded', function () {
     var desktopIcons = document.querySelectorAll('.icon');
     for (var i = 0; i < desktopIcons.length; i++) {
         desktopIcons[i].addEventListener('click', function () {
-            this.classList.remove('bounce');
-            void this.offsetWidth;
-            this.classList.add('bounce');
-            var app = this.dataset.app;
-            if (document.getElementById('window-' + app.replace(/\s/g, '-'))) {
-                focusWindow(app);
-            } else {
-                makeWindow(app);
-            }
-        });
-        desktopIcons[i].addEventListener('animationend', function () {
-            this.classList.remove('bounce');
-        });
+        this.classList.remove('bounce');
+        void this.offsetWidth;
+        this.classList.add('bounce');
+
+        var app = this.dataset.app;
+
+        // 👇 Custom redirect for photos folder
+        if (app === "photos") {
+            window.open("https://www.instagram.com/ali00100001", "_blank");
+            return;
+        }
+
+        if (document.getElementById('window-' + app.replace(/\s/g, '-'))) {
+            focusWindow(app);
+        } else {
+            makeWindow(app);
+        }
+    });
     }
 
     setTimeout(function () {
@@ -465,6 +470,11 @@ window.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < startMenuFolders.length; i++) {
         startMenuFolders[i].addEventListener('click', function () {
             var app = this.dataset.app;
+            if (app === "photos") {
+            window.open("https://www.instagram.com/ali00100001", "_blank");
+            startMenu.style.display = 'none';
+            return;
+        }
             if (document.getElementById('window-' + app.replace(/\s/g, '-'))) {
                 focusWindow(app);
             } else {
