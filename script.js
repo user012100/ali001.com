@@ -551,7 +551,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 '<div class="terminal-code" id="terminalCode"></div>';
         }
         if (app === "about.txt") {
-            return "welcome to my website! my name is ali salifov, and im a multi-disciplinary artist based in new york. combining multi-media, technology and art is one of my passions. in my free time, i like making music and playing video games. im also interested in physical media preservation, like music, movies, books, zines, art. feel free to look around and explore my projects!";
+            return "my name is ali salifov, and im a multimedia artist based in new york. in my free time, i like making music, physical media preservation, movies, books, zines, art. feel free to look around and explore my projects!";
         }
         return "[" + app + " content goes here]";
     }
