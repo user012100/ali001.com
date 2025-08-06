@@ -1,4 +1,15 @@
 window.addEventListener('DOMContentLoaded', function () {
+    (function() {
+
+    var description = document.getElementById('description'),
+        previousDisplay;
+
+    window.onload = function() {
+       previousDisplay = description.style.display;
+       description.style.display = 'none';
+    };
+
+})();
     function getWindowScale() {
         if (window.innerWidth <= 700) {
             return 0.8;
@@ -551,7 +562,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 '<div class="terminal-code" id="terminalCode"></div>';
         }
         if (app === "about.txt") {
-            return "my name is ali salifov, and im a multimedia artist based in new york. in my free time, i like making music, physical media preservation, movies, books, zines, art. feel free to look around and explore my projects!";
+            return "my name is ali salifov, and im a multimedia artist based in new york. i like music, digital art, movies, books, zines. feel free to look around and explore my projects!";
         }
         return "[" + app + " content goes here]";
     }
