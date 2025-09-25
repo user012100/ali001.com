@@ -46,9 +46,8 @@ window.addEventListener('DOMContentLoaded', function () {
             { label: "dinoboy-no-angel.jpg", icon: "images/artwork/dinoboy-no-angel.jpg", type: "image", url: "images/artwork/dinoboy-no-angel.jpg" },
             { label: "computerwife-canvas.mp4", icon: "images/artwork/computerwife-canvas.png", type: "video", url: "images/artwork/computerwife-canvas.mp4" }
         ],
-        wireframes: [
+        prototypes: [
             { label: "mixr-prototype", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/jBJBre50JPxlv8JYkE2JR4/Visual-Design?node-id=19-0&scaling=scale-down&t=tBTPwMtYaXR8InmC-1" },
-            { label: "mixr-wireframe", icon: "https://static.figma.com/app/icon/1/favicon.png", url: "https://www.figma.com/proto/1ZfKZjqeLoNUfdMp2QtQJf/Wireframe?node-id=0-1&t=rPOjdLQKY7Se22Td-1" }
         ],
     };
 
