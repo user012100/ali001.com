@@ -363,12 +363,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
         var app = this.dataset.app;
 
-        // 👇 Custom redirect for photos folder
-        if (app === "photos") {
-            window.open("https://www.instagram.com/ali00100001", "_blank");
-            return;
-        }
-
         if (document.getElementById('window-' + app.replace(/\s/g, '-'))) {
             focusWindow(app);
         } else {
@@ -476,11 +470,7 @@ window.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < startMenuFolders.length; i++) {
         startMenuFolders[i].addEventListener('click', function () {
             var app = this.dataset.app;
-            if (app === "photos") {
-            window.open("https://www.instagram.com/ali00100001", "_blank");
-            startMenu.style.display = 'none';
-            return;
-        }
+            
             if (document.getElementById('window-' + app.replace(/\s/g, '-'))) {
                 focusWindow(app);
             } else {
