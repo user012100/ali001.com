@@ -40,7 +40,11 @@ window.addEventListener('DOMContentLoaded', function () {
 
     var folderContents = {
         websites: [
-            { label: "nlambrou.com", icon: "images/icons/nl.png", url: "https://nlambrou.com" },
+            { label: "Joanna Istanbul", icon: "", url: "https://joannaistanbul.com" },
+            { label: "Persistence of Color", icon: "", url: "https://ali001.com/persistence-of-color" },
+            { label: "Cult of the Ugly", icon: "", url: "https://user012100.github.io/spread" },
+            { label: "Gossip", icon: "", url: "https://user012100.github.io/links" },
+            { label: "Nick Lambrou", icon: "images/icons/nl.png", url: "https://nlambrou.com" },
         ],
         artwork: [
             { label: "dinoboy-no-angel.jpg", icon: "images/artwork/dinoboy-no-angel.jpg", type: "image", url: "images/artwork/dinoboy-no-angel.jpg" },
